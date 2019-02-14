@@ -4,7 +4,6 @@ declare(strict_types=1);
 final class Email
 {
     private $email;
-
     private function __construct(string $email)
     {
         $this->ensureIsValidEmail($email);
